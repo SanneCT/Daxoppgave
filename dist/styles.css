@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+    margin-top: 2%;
+}
+
+.btn-dark {
+    background-color: #EABFCB;
+    width: 50%;
+}
+
+input {
+    font-size: 115%;
+    width: 50%;
+}
