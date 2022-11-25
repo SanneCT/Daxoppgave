@@ -77,17 +77,17 @@ logout.addEventListener('click', e => {
 
 
 // adding users
-// const addUserForm = document.querySelector(".add");
-// addUserForm.addEventListener("submit", (e) => {
-//   e.preventDefault();
+const addUserForm = document.querySelector(".add");
+addUserForm.addEventListener("submit", (e) => {
+  e.preventDefault();
 
-//   addDoc(colRef, {
-//     username: addUserForm.username.value,
-//     password: addUserForm.password.value,
-//   }).then(() => {
-//     addUserForm.reset();
-//   });
-// });
+  addDoc(colRef, {
+    username: addUserForm.username.value,
+    password: addUserForm.password.value,
+  }).then(() => {
+    addUserForm.reset();
+  });
+});
 
 // logging in
 const formWrapper = document.querySelector('.form-wrapper')
